@@ -10,6 +10,6 @@ cp clouduploader.sh $INSTALL_DIR
 chmod +x $INSTALL_DIR/clouduploader.sh
 
 echo "CloudUploader is now installed."
-echo "You can use it by running 'clouduploader.sh' from any directory."
+echo "You can use it by running 'clouduploader.sh' ."
 
 
