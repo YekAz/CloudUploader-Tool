@@ -2,18 +2,18 @@
 
 # TABLE OF CONTENTS
 
-#Overview
-#Pre - Requisites
-#Instaallation & Configuration
-#Usage Examples
-#Advanced Features
-#Common Issues and Troubleshooting
+# Overview
+# Pre - Requisites
+# Instaallation & Configuration
+# Usage Examples
+# Advanced Features
+# Common Issues and Troubleshooting
 
-##OVERVIEW
+## OVERVIEW
 
 This is a bash-based CLI tool that allows you to quickly upload files to Amazon S3 cloud storage solution, giving you a simple and seamless upload experience. It aims to offer a user-friendly experience similar to popular storage services.
  
-##PRE-REQUISITES
+## PRE-REQUISITES
 
 In order to have a smooth experience using the uploader tool, the following requirements needs to be put in place;
 
