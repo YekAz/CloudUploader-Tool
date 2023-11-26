@@ -98,15 +98,15 @@ This CloudUploader CLI tool offers the following advanced features for your usag
    **Issue:** The AWS CLI is a requirement for CloudUploader, and if it's not installed, the tool won't work.
  
    **Troubleshooting:**
-   * Install the AWS CLI using the `user guide` on the AWS CLI documentation: `https://docs.aws.amazon.com/cli/`
+* Install the AWS CLI using the `user guide` on the AWS CLI documentation: `https://docs.aws.amazon.com/cli/`
 
 2. **Incorrect AWS Configuration:**
 
- 	**Issue:** Incorrect or missing AWS credentials or configuration.
+   **Issue:** Incorrect or missing AWS credentials or configuration.
 
- 	**Troubleshooting:**
-        - Ensure that AWS credentials are correctly configured on your system.
-        + Run 'aws configure' on your terminal to set up AWS CLI credentials interactively.
+   **Troubleshooting:**
+- Ensure that AWS credentials are correctly configured on your system.
++ Run 'aws configure' on your terminal to set up AWS CLI credentials interactively.
 
 3. **Invalid S3 Bucket Name:**
 
