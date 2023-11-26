@@ -4,6 +4,10 @@
 
 This is a bash-based CLI tool that allows you to quickly upload files to Amazon S3 cloud storage solution, giving you a simple and seamless upload experience. It aims to offer a user-friendly experience similar to popular storage services.
 
+Here is an image of the CloudUploader Tool in action.
+
+![CloudUploader Tool in action](https://github.com/YekAz/CloudUplxoader-Tool/commits?author=YekAz)
+
  
 ## PRE-REQUISITES
 
@@ -98,7 +102,12 @@ This CloudUploader CLI tool offers the following advanced features for your usag
    **Issue:** The AWS CLI is a requirement for CloudUploader, and if it's not installed, the tool won't work.
  
    **Troubleshooting:**
-   * Install the AWS CLI using the `user guide` on the AWS CLI documentation: `https://docs.aws.amazon.com/cli/`
+   * Install the AWS CLI using the following command:
+ 
+   ```
+   sudo apt-get update
+   sudo apt-get install awscli
+   ```
 
 2. **Incorrect AWS Configuration:**
 
@@ -106,65 +115,66 @@ This CloudUploader CLI tool offers the following advanced features for your usag
 
    **Troubleshooting:**
    - Ensure that AWS credentials are correctly configured on your system.
-	+ Run 'aws configure' on your terminal to set up AWS CLI credentials interactively.
+   + Run `aws configure` on your terminal to set up AWS CLI credentials interactively.
+   + Go through the `user guide` on the AWS CLI documentation: `https://docs.aws.amazon.com/cli/` to get a better understanding on installing, configuring and using the AWS CLI.
 
 3. **Invalid S3 Bucket Name:**
 
- 	**Issue:** The S3 bucket you specified does not exist or there is a mistake in the name.
+   **Issue:** The S3 bucket you specified does not exist or there is a mistake in the name.
 
- 	**Troubleshooting:**
-        + Double-check the S3 bucket name specified in the configuration.
-        + Ensure the bucket exists and is accessible by the configured AWS credentials.
+   **Troubleshooting:**
+   + Double-check the S3 bucket name specified in the configuration.
+   + Ensure the bucket exists and is accessible by the configured AWS credentials.
 
 4. **Permission Issues:**
 
- 	**Issue:** Permission denied errors during installation or execution.
+   **Issue:** Permission denied errors during installation or execution.
 
- 	**Troubleshooting:**
-        + Ensure that the you have the necessary permissions to install and execute the script. Give yourself execution permission with the command `chmod x+` while in the directory the file is uploaded.
-        + Use `sudo` (for running installation command) when required, but be cautious with elevated privileges.
+   **Troubleshooting:**
+   + Ensure that the you have the necessary permissions to install and execute the script. Give yourself execution permission with the command `chmod x+` while in the directory the file is uploaded.
+   + Use `sudo` (for running installation command) when required, but be cautious with elevated privileges.
 
 5. **File Upload Failures:**
 
- 	**Issue:** Failure during file upload to S3.
+   **Issue:** Failure during file upload to S3.
 
- 	**Troubleshooting:**
-        + Check that your AWS S3 configurations are correct.
-        + Verify that the specified file path is correct.
+   **Troubleshooting:**
+   + Check that your AWS S3 configurations are correct.
+   + Verify that the specified file path is correct.
 
 6. **Shareable Link Generation Issues:**
 
- 	**Issue:** Problems generating or displaying shareable links.
+   **Issue:** Problems generating or displaying shareable links.
 
- 	**Troubleshooting:**
-        + Confirm that the uploaded file is in the specified S3 bucket.
+   **Troubleshooting:**
+   + Confirm that the uploaded file is in the specified S3 bucket.
 
 7. **Script not in $PATH:**
 
-  	**Issue:** You might have trouble running the script if it's not in a directory listed in the $PATH.
+   **Issue:** You might have trouble running the script if it's not in a directory listed in the $PATH.
 
-  	**Troubleshooting:**
-        + Add the directory containing the script to the $PATH or execute it with the full path.
+   **Troubleshooting:**
+   + Add the directory containing the script to the $PATH or execute it with the full path.
 
-8. pv (Pipe Viewer) is not installed:
+8. **pv (Pipe Viewer) is not installed:**
 
-  	**Issue:** pv is used for the progress bar feature, and if it's not installed, you won't see a progress indicator.
+   **Issue:** pv is used for the progress bar feature, and if it's not installed, you won't see a progress indicator.
 
-  	**Troubleshooting:**
-        + Install pv using the package manager for your system
+   **Troubleshooting:**
+   + Install pv using the package manager for your system
 
-	```
-	sudo apt-get install pv
-	```
+   ```
+   sudo apt-get install pv
+   ```
 
-9. 	**Network Issues:**
+9. **Network Issues:**
 
-  	**Issue:** Issues related to network connectivity, DNS resolution, or firewall blocking.
+   **Issue:** Issues related to network connectivity, DNS resolution, or firewall blocking.
 
-  	**Troubleshooting:**
-        + Check your internet connectivity.
-        + Verify your DNS settings and try again using a different DNS server.
-        + Ensure there are no firewall or proxy issues. 
+   **Troubleshooting:**
+   + Check your internet connectivity.
+   + Verify your DNS settings and try again using a different DNS server.
+   + Ensure there are no firewall or proxy issues. 
 
 
  > ENJOY!!! and please give feedbacks on your experience with the tool.
