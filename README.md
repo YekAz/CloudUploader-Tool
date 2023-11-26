@@ -18,7 +18,7 @@ In order to have a smooth experience using the uploader tool, the following requ
 
 Follow the steps bellow to install and configure the CloudUploader CLI Tool;
 
-+ Ensure you have the latest version of Git installed on your terminal. To check your version of Git, run the coomand 'git version' or 'git --version' or 'git -v' to check.
++ Ensure you have the latest version of Git installed on your terminal. To check your version of Git, run the coomand `git version` or `git --version` or `git -v` to check.
 
    If git is not installed on your machine, run the commands below to install Git;
 
@@ -95,10 +95,10 @@ This CloudUploader CLI tool offers the following advanced features for your usag
 
 1. **AWS CLI is not installed:**
 
- 	**Issue:** The AWS CLI is a requirement for CloudUploader, and if it's not installed, the tool won't work.
+   **Issue:** The AWS CLI is a requirement for CloudUploader, and if it's not installed, the tool won't work.
  
- 	**Troubleshooting:**
-        + Install the AWS CLI using the 'user guide' on the AWS CLI documentation: `https://docs.aws.amazon.com/cli/`
+   **Troubleshooting:**
+   + Install the AWS CLI using the 'user guide' on the AWS CLI documentation: `https://docs.aws.amazon.com/cli/`
 
 2. **Incorrect AWS Configuration:**
 
@@ -122,7 +122,6 @@ This CloudUploader CLI tool offers the following advanced features for your usag
 
  	**Troubleshooting:**
         + Ensure that the you have the necessary permissions to install and execute the script. Give yourself execution permission with the command `chmod x+` while in the directory the file is uploaded.
-
         + Use `sudo` (for running installation command) when required, but be cautious with elevated privileges.
 
 5. **File Upload Failures:**
