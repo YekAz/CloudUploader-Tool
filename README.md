@@ -6,7 +6,7 @@ This is a bash-based CLI tool that allows you to quickly upload files to Amazon 
 
 Here is an image of the CloudUploader Tool in action.
 
-![CloudUploader Tool in action](https://github.com/YekAz/CloudUplxoader-Tool/commits?author=YekAz)
+![CloudUploader Tool in action](<img width="960" alt="Clouduploader-Tool-Pix" src="https://github.com/YekAz/CloudUploader-Tool/assets/100805458/8af33b63-ca3d-4896-87e6-cd3048a78930">)
 
  
 ## PRE-REQUISITES
